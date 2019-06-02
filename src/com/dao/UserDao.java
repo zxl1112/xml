@@ -11,7 +11,7 @@ public interface UserDao {
     /**
      * 接口方法对应SQL映射文件UserMapper.xml中的id
      */
-    public MyUser selectUserById(Integer uid);
+    public MyUser  selectUserById(Integer uid);
 
     public List<MyUser> selectAllUser();
 
